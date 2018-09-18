@@ -58,10 +58,7 @@ class App extends RX.Component<{}, null> {
     private _onPressNavigate = () => {
         this._navigator.push({
             routeId: NavigationRouteId.SecondPanel,
-            sceneConfigType: NavigatorTypes.NavigatorSceneConfigType.FloatFromRight,
-            customSceneConfig: {
-                hideShadow: true
-            }
+            sceneConfigType: NavigatorTypes.NavigatorSceneConfigType.FloatFromRight
         });
     }
 
